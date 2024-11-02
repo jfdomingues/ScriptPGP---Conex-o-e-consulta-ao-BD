@@ -1,7 +1,7 @@
 <?php
 
 //Coneção ao banco de dados
-$cx = mysqli_connect("host", "user", "pass");
+$cx = mysqli_connect("localhost", "user", "pass");
 $db = mysqli_select_db($cx, "nome_BD");
 
 //Consulta ao banco
